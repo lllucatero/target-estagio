@@ -42,3 +42,4 @@ def maior_que_media()
   puts "|  Houve #{mais_que_media} dias em que o faturamento superou a média mensal."
   puts "| -----------------------------------------------------------|"
 end
+
