@@ -1,7 +1,7 @@
 require 'json'
 
 def faturamentos_totais()
-  file = File.read('./dados.json')
+  file = File.read('./data/dados.json')
   faturamento_mensal = JSON.parse(file)
   @faturamentos = [] 
 
