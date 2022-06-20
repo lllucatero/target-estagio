@@ -1,5 +1,5 @@
-require_relative 'methods_fatura_calc.rb'
-require_relative 'menu.rb'
+require_relative './lib/methods_fatura_calc.rb'
+require_relative './lib/menu.rb'
 
 loop do 
   faturamentos_totais()
